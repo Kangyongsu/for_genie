@@ -1,9 +1,6 @@
 #리스트
 # 자료를 한 줄로 저장해놓은 자료구조 => 그냥 집합이라 생각하시면 편합니다
 
-from sympy import false
-
-
 list_1 = [1,2,3,4,5]
 print(f'list_1의 타입은 {type(list_1)}이고 값은 {list_1}입니다')
 
