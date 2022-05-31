@@ -12,3 +12,6 @@ result = add_two_num(1,2)
 print(f'add_two_num(1,2)의 결과는 {result}입니다')
 
 
+#함수 => 람다로 변경
+
+print(f'(lambda x,y : x+y)(1,2)의 값은 {(lambda x,y : x+y)(1,2)}입니다')

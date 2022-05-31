@@ -39,5 +39,13 @@ elif(1 in list_1):
     print("list_1안에는 int형 1인 존재합니다")
 #=> 이부분은 for문의 개념을 이해하면 이해하기 쉬우니 넘어가도 됩니다.
 
+
+#AND OR 사용
+
+if( list_1[0]==0 or list_1[3]==4 ):
+    print("OR조건이 true")
+elif( list_1[0]==1 and list_1[3]==4 ):
+    print("AND조건이 true")
+
     
 
