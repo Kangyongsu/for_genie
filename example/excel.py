@@ -1,8 +1,5 @@
 import requests, bs4
 import pandas as pd
-import os
-
-from sympy import false
 
 url = "https://sparkkorea.com/테스트/"
 response = requests.get(url).text.encode('utf-8')

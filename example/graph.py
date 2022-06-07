@@ -9,6 +9,7 @@ print(type(tips))
 
 tips.to_excel(excel_writer='tips.xlsx')
 
-sns.pairplot(tips,kind='scatter')
+# sns.pairplot(tips,kind='scatter')
+sns.lmplot(x='total_bill',y='tip',data=tips,hue='sex')
 
 plt.show()
