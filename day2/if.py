@@ -23,7 +23,7 @@ my_age = 33
 if(my_age==32):
     print("내 나이는 32살입니다")
 elif(type(my_age)==int):
-    print("my_age의 데이터타입은 int형입니다")
+    print(f'my_age의 데이터타입은 {type(my_age)}형입니다')
 else:
     print("내 나이는 32살이 아닙니다")
 
@@ -42,9 +42,9 @@ elif(1 in list_1):
 
 #AND OR 사용
 
-if( list_1[0]==0 or list_1[3]==4 ):
+if( list_1[0]== 0 or list_1[3]== 4 ):
     print("OR조건이 true")
-elif( list_1[0]==1 and list_1[3]==4 ):
+elif( list_1[0]== 1 and list_1[3]== 4 ):
     print("AND조건이 true")
 
     

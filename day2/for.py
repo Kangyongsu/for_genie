@@ -15,7 +15,7 @@ for i in list_1:
     
 
 #for문 + list 응용 (홀짝 필터기)
-print(f'range(10)의 출력결과 {list(range(21))}')
+print(f'range(21)의 출력결과 {list(range(21))}')
 
 odd_number= []
 even_number= []
